@@ -18,14 +18,13 @@
 
 ## Data Types
 
-- Numeric
+- Number
 - String
   - Use an escape character `\` to include quotes in a String
 - Boolean
-- Array
-- Object
-- Undefined
-- Null
+- Undefined (variable has been declared, but no value has been assigned)
+- Null (variable with no value - maybe had one in the past, but no longer does)
+- Object (the only complex data type)
 
 ## Operators
 

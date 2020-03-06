@@ -26,6 +26,13 @@
 - Null (variable with no value - maybe had one in the past, but no longer does)
 - Object (the only complex data type)
 
+### Type Coercion
+
+- If you use an unexpected data type, JS will try to convert it behind the scenes to complete an operation rather than throw an error.
+- Hence JS uses **weak typing**.
+- Whilst this may be convenient, it can also lead to unexpected errors, so it is best to use strict comparison operators (`===` instead of `==` etc.)
+- Coercion is the mechanism behind why every expression in JS can be treated as if it were `true` or `false`
+
 ## Operators
 
 - Assignment

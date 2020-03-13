@@ -130,9 +130,9 @@ jQuery methods that **set** information do it for all matches. Methods that **ge
 
 ### Events
 
-| Method Name          | Action                                    | Vanilla JS Equivalent                                    |
-| -------------------- | ----------------------------------------- | -------------------------------------------------------- |
-| **Document/File**    |                                           |                                                          |
-| `.ready()`           | Execute callback when DOM is fully loaded | document.addEventListener('DOMContentLoaded', callback); |
-| **User Interaction** |                                           |                                                          |
-| `.on()`              | Attach event handler for 1+ events        | el.addEventListener();                                   |
+| Method Name          | Action                                    | Vanilla JS Equivalent                                     |
+| -------------------- | ----------------------------------------- | --------------------------------------------------------- |
+| **Document/File**    |                                           |                                                           |
+| `.ready()`           | Execute callback when DOM is fully loaded | `document.addEventListener('DOMContentLoaded', callback)` |
+| **User Interaction** |                                           |                                                           |
+| `.on()`              | Attach event handler for 1+ events        | `el.addEventListener()`                                   |

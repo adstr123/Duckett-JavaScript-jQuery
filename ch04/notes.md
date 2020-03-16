@@ -29,7 +29,8 @@ switch (level) {
 }
 ```
 
-Each `case` block is followed by a `break` to save the interpreter evaluating the other cases, improving performance
+- Each `case` block is followed by a `break` to save the interpreter evaluating the other cases, improving performance
+- Values are not loosely types, so their type will not be coerced during the check
 
 ## Short circuit values
 
